@@ -17,7 +17,7 @@ func createHero() {
 
 	exp = exp + 500
 	gold -= 100
-	level ++
+	level++
 
 	fmt.Println("=== Hero Profile ===")
 	fmt.Printf("Name %s\n", name)
@@ -28,6 +28,6 @@ func createHero() {
 	fmt.Printf("Online: %t\n", isOnline)
 }
 
-func main () {
+func main() {
 	createHero()
 }
