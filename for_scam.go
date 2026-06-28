@@ -22,8 +22,8 @@ func main() {
 
 	var playerGuess int
 
-	for attemp := 1; attemp <= maxAttempts; attemp++ {
-		fmt.Printf("\nПопытка %d из %d: ", attemp, maxAttempts)
+	for attempt := 1; attempt <= maxAttempts; attempt++ {
+		fmt.Printf("\nПопытка %d из %d: ", attempt, maxAttempts)
 		fmt.Scan(&playerGuess)
 
 		if playerGuess == secretNumber {
